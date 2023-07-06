@@ -1,0 +1,189 @@
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styles généraux */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .hd-lg{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+
+  #logo {
+    border-radius: 36%;
+    width: 18%;
+    height: 85%;
+    object-fit: cover;
+    box-shadow: 4px 4px 6px #2eeabb;
+  }
+
+  .nav-ul-li{
+    border-radius: 50px;
+    margin: 40px;
+    padding: 25px;
+    box-shadow: 4px 4px 6px #2eeabb;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: padding-right 450ms ease-in-out;
+    width: auto;
+  }
+  
+  .initials {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  
+  /* Styles pour l'entête */
+  header {
+    background-color: #6aa8db;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    /*background-color: #fff;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 6px #aaa;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: padding-right 450ms ease-in-out;*/
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .service{
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 6px #2eeabb;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: padding-right 450ms ease-in-out;
+    width: auto;
+  }
+  
+  /* Styles pour la vidéo */
+  #video {
+    /*background-color: #fff;
+    padding: 20px;
+    width: 250px;*/
+    border-radius: 25px;
+    box-shadow: 4px 4px 6px #2eeabb;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #video video {
+    border-radius: 20%;
+    width: 30%;
+    height: 85%;
+    object-fit: cover;
+    box-shadow: 4px 4px 6px #2eeabb;
+
+    /*width: 100%;
+    height: auto;
+    object-fit: cover;*/
+  }
+  
+  .propos{
+    font-style: oblique;
+
+  }
+  #seo-lus{
+    border-radius: 36%;
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+  }
+  #video h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles pour les sections */
+  section {
+    background-color: #d2dae5;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles pour le pied de page */
+  footer {
+    background-color: #6aa8db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #contact{
+    border-radius: 25px;
+    box-shadow: 4px 4px 6px #2eeabb;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ft-ul-li{
+    border-radius: 50px;
+    margin: 40px;
+    padding: 25px;
+    box-shadow: 4px 4px 6px #2eeabb;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: padding-right 450ms ease-in-out;
+    width: auto;
+  }
+  
